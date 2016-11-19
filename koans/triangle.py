@@ -25,6 +25,9 @@ def triangle(a, b, c):
     list_side = [side1, side2, side3]
 
     # part 2
+    ''' 
+    Maybe that I should have use the pythagore theorem  
+    '''
     f = lambda x: x < 0
     negatif_list = [f(x) for x in list_side]
     if 0 in list_side:
