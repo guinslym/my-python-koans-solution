@@ -29,7 +29,7 @@ class AboutComprehension(Koan):
         list_of_tuples = [(1, 'lumberjack'), (2, 'inquisition'), (4, 'spam')]
         comprehension = [ skit * number for number, skit in list_of_tuples ]
 
-        self.assertEqual(__, comprehension[0])
+        self.assertEqual('lumberjack', comprehension[0])
         self.assertEqual(__, comprehension[2])
 
     def test_double_list_comprehension(self):
