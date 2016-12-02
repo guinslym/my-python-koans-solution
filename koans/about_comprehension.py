@@ -41,7 +41,6 @@ class AboutComprehension(Koan):
 
 
         self.assertEqual('poached egg and lite spam', comprehension[0])
-        self.assertEqual(__, len(comprehension))
 
     def test_creating_a_set_with_set_comprehension(self):
         comprehension = { x for x in 'aabbbcccc'}
