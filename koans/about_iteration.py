@@ -111,14 +111,14 @@ class AboutIteration(Koan):
         for num in range(1,5):
             pass
 
-        self.assertEqual(__, num)
+        self.assertEqual(4, num)
 
     # ------------------------------------------------------------------
 
     def test_all_iteration_methods_work_on_any_sequence_not_just_lists(self):
         # Ranges are an iterable sequence
         result = map(self.add_ten, range(1,4))
-        self.assertEqual(__, list(result))
+        self.assertEqual([11,12,13], list(result))
 
         try:
             file = open("example_file.txt")
