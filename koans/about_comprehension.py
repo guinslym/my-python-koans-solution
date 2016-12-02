@@ -22,7 +22,7 @@ class AboutComprehension(Koan):
 
         comprehension = [delicacy for delicacy in feast if len(delicacy) > 6]
 
-        self.assertEqual(3, len(feast))
+        self.assertEqual(6, len(feast))
         self.assertEqual(__, len(comprehension))
 
     def test_unpacking_tuples_in_list_comprehensions(self):
