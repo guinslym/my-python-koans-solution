@@ -13,7 +13,7 @@ class AboutComprehension(Koan):
 
         comprehension = [delicacy.capitalize() for delicacy in feast]
 
-        self.assertEqual(__, comprehension[0])
+        self.assertEqual('Lambs', comprehension[0])
         self.assertEqual(__, comprehension[2])
 
     def test_filtering_lists_with_list_comprehensions(self):
