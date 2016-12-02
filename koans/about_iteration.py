@@ -16,7 +16,7 @@ class AboutIteration(Koan):
         self.assertEqual(15 , total)
 
     def test_iterating_with_next(self):
-        stages = iter(['alpha','beta','gamma'])
+        stages = iter(['alpha ','beta','gamma'])
 
         try:
             self.assertEqual('alpha', next(stages))
