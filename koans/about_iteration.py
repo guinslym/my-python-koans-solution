@@ -97,7 +97,7 @@ class AboutIteration(Koan):
         self.assertEqual(int, result.__class__)
         # Reduce() syntax is same as Python 2
 
-        self.assertEqual(__, result)
+        self.assertEqual(9, result)
 
         result2 = functools.reduce(self.multiply, [2, 3, 4], 1)
         self.assertEqual(__, result2)
