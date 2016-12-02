@@ -94,7 +94,7 @@ class AboutIteration(Koan):
         # to the functools module.
 
         result = functools.reduce(self.add, [2, 3, 4])
-        self.assertEqual(__, result.__class__)
+        self.assertEqual(int, result.__class__)
         # Reduce() syntax is same as Python 2
 
         self.assertEqual(__, result)
