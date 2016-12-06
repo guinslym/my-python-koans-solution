@@ -198,15 +198,4 @@ koans activity on bitbucket.
     https://bitbucket.org/repo/all?name=koans
 
 
-Acknowledgments
----------------
 
-Thanks go to Jim Weirich and Joe O'Brien for the original Ruby Koans that the
-Python Koans is based on! Also the Ruby Koans in turn borrows from Metakoans
-so thanks also go to Ara Howard for that!
-
-Also thanks to everyone who has contributed to Python Koans! I got a great
-headstart by taking over a code base initiated by the combined Mikes of
-FPIP. So here's a little plug for their very cool Python podcast:
-
-  http://frompythonimportpodcast.com/
