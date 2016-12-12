@@ -21,8 +21,8 @@ class AboutLambdas(Koan):
         sausages = self.make_order('sausage')
         eggs = self.make_order('egg')
 
-        self.assertEqual(__, sausages(3))
-        self.assertEqual(__, eggs(2))
+        self.assertEqual('3 sausages', sausages(3))
+        self.assertEqual('2 eggs', eggs(2))
 
     def test_accessing_lambda_without_assignment(self):
         self.assertEqual(__, self.make_order('spam')(39823))
