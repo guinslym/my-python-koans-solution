@@ -25,4 +25,4 @@ class AboutLambdas(Koan):
         self.assertEqual('2 eggs', eggs(2))
 
     def test_accessing_lambda_without_assignment(self):
-        self.assertEqual(__, self.make_order('spam')(39823))
+        self.assertEqual('39823 spams', self.make_order('spam')(39823))
