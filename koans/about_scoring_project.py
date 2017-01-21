@@ -39,7 +39,7 @@ def score(dice):
     points = 0
     if type(dice) == None:
         dice = [0]
-    results = [[die, dice.count(die)] for die in set(dice)]
+    results = [[dice_number, dice.count(dice_number)] for dice_number in set(dice)]
     #[[1, 4], [2, 4], [3, 2], [4, 1], [5, 2]]
     for roll in results:
         if roll[1] >= 3 and roll[0] == 1:
