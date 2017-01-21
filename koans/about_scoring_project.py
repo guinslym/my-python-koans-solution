@@ -34,6 +34,10 @@ from runner.koan import *
 
 def score(dice):
     # You need to write this method
+    total = 0
+    if dice.count(1) >= 3:
+        total += 1000
+    return 0
     pass
 
 class AboutScoringProject(Koan):
