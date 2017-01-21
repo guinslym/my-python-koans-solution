@@ -35,10 +35,12 @@ from runner.koan import *
 
 def score(dice):
     # You need to write this method
+    #a = [1,1,1,1,2,2,2,2,3,3,4,5,5]
     points = 0
     if type(dice) == None:
         dice = [0]
     results = [[die, dice.count(die)] for die in set(dice)]
+    #[[1, 4], [2, 4], [3, 2], [4, 1], [5, 2]]
     for roll in results:
         if roll[1] >= 3 and roll[0] == 1:
             points += 1000
