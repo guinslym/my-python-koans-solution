@@ -34,9 +34,15 @@ from runner.koan import *
 
 def score(dice):
     # You need to write this method
+    from collections import Counter
+    c=Counter(dice)
+    for i in c.keys():
+        dfs
     total = 0
+    result = [dice.count(i) for i in range(2,7)]
     if dice.count(1) >= 3:
         total += 1000
+    elif dice.count()
     return 0
     pass
 
