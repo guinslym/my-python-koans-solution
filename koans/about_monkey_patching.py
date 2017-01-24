@@ -35,7 +35,7 @@ class AboutMonkeyPatching(Koan):
         except Exception as ex:
             err_msg = ex.args[0]
 
-        self.assertRegex(err_msg, __)
+        self.assertRegex(err_msg, 'attributes')
 
     # ------------------------------------------------------------------
 
