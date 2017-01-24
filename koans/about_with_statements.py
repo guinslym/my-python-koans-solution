@@ -85,7 +85,7 @@ class AboutWithStatements(Koan):
             return len(file.readlines())
 
     def test_counting_lines2(self):
-        self.assertEqual(__, self.count_lines2("example_file.txt"))
+        self.assertEqual(4, self.count_lines2("example_file.txt"))
 
     # ------------------------------------------------------------------
 
