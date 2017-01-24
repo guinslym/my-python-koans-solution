@@ -15,7 +15,7 @@ class AboutClasses(Koan):
         self.assertEqual('Dog', fido.__class__.__name__)
 
     def test_classes_have_docstrings(self):
-        self.assertRegex(self.Dog.__doc__, __)
+        self.assertRegex(self.Dog.__doc__, 'walkies')
 
     # ------------------------------------------------------------------
 
