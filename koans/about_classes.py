@@ -156,7 +156,7 @@ class AboutClasses(Koan):
 
     def test_repr_provides_a_more_complete_string_version(self):
         fido = self.Dog6("Fido")
-        self.assertEqual(__, repr(fido))
+        self.assertEqual("<Dog named 'Fido'>", repr(fido))
 
     def test_all_objects_support_str_and_repr(self):
         seq = [1, 2, 3]
