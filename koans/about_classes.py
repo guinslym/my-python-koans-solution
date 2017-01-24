@@ -92,7 +92,7 @@ class AboutClasses(Koan):
         fido = self.Dog4()
 
         fido.name = "Fido"
-        self.assertEqual(__, fido.name)
+        self.assertEqual("Fido", fido.name)
 
     # ------------------------------------------------------------------
 
