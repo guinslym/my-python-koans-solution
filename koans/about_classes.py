@@ -69,10 +69,10 @@ class AboutClasses(Koan):
         fido.set_name("Fido")
 
         # access as method
-        self.assertEqual(__, fido.get_name())
+        self.assertEqual('Fido', fido.get_name())
 
         # access as property
-        self.assertEqual(__, fido.name)
+        self.assertEqual('Fido', fido.name)
 
     # ------------------------------------------------------------------
 
