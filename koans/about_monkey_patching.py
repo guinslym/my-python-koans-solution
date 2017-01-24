@@ -45,4 +45,4 @@ class AboutMonkeyPatching(Koan):
         self.MyInt.is_even = lambda self: (self % 2) == 0
 
         self.assertEqual(False, self.MyInt(1).is_even())
-        self.assertEqual(__, self.MyInt(2).is_even())
+        self.assertEqual(True, self.MyInt(2).is_even())
