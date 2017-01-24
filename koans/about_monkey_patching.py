@@ -14,7 +14,7 @@ class AboutMonkeyPatching(Koan):
 
     def test_as_defined_dogs_do_bark(self):
         fido = self.Dog()
-        self.assertEqual(__, fido.bark())
+        self.assertEqual("WOOF", fido.bark())
 
     # ------------------------------------------------------------------
 
