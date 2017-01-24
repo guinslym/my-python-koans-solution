@@ -36,7 +36,7 @@ class AboutMethodBindings(Koan):
 
     def test_setting_attributes_on_an_unbound_function(self):
         function.cherries = 3
-        self.assertEqual(__, function.cherries)
+        self.assertEqual(3, function.cherries)
 
     def test_setting_attributes_on_a_bound_method_directly(self):
         obj = Class()
