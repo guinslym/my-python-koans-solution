@@ -45,7 +45,7 @@ class AboutMethodBindings(Koan):
     def test_setting_attributes_on_methods_by_accessing_the_inner_function(self):
         obj = Class()
         obj.method.__func__.cherries = 3
-        self.assertEqual(__, obj.method.cherries)
+        self.assertEqual(3, obj.method.cherries)
 
     def test_functions_can_have_inner_functions(self):
         function2.get_fruit = function
