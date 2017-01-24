@@ -40,7 +40,7 @@ class AboutMethodBindings(Koan):
 
     def test_setting_attributes_on_a_bound_method_directly(self):
         obj = Class()
-        with self.assertRaises(___): obj.method.cherries = 3
+        with self.assertRaises(AttributeError): obj.method.cherries = 3
 
     def test_setting_attributes_on_methods_by_accessing_the_inner_function(self):
         obj = Class()
