@@ -142,7 +142,7 @@ class AboutClasses(Koan):
     def test_inside_a_method_self_refers_to_the_containing_object(self):
         fido = self.Dog6("Fido")
 
-        self.assertEqual(__, fido.get_self())  # Not a string!
+        self.assertEqual("<Dog named 'Fido'>", fido.get_self())  # Not a string!
 
     def test_str_provides_a_string_version_of_the_object(self):
         fido = self.Dog6("Fido")
