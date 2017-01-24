@@ -22,7 +22,7 @@ class AboutWithStatements(Koan):
             self.fail()
 
     def test_counting_lines(self):
-        self.assertEqual(__, self.count_lines("example_file.txt"))
+        self.assertEqual(4, self.count_lines("example_file.txt"))
 
     # ------------------------------------------------------------------
 
