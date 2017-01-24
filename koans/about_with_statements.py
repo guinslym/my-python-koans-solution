@@ -95,7 +95,7 @@ class AboutWithStatements(Koan):
 
     def test_finding_lines2(self):
         self.assertEqual(None, self.find_line2("example_file.txt"))
-        self.assertNotEqual(__, self.find_line2("example_file.txt"))
+        self.assertNotEqual('nothing', self.find_line2("example_file.txt"))
 
     # ------------------------------------------------------------------
 
@@ -104,4 +104,4 @@ class AboutWithStatements(Koan):
             return len(file.readlines())
 
     def test_open_already_has_its_own_built_in_context_manager(self):
-        self.assertEqual(__, self.count_lines3("example_file.txt"))
+        self.assertEqual(4, self.count_lines3("example_file.txt"))
