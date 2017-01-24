@@ -94,7 +94,7 @@ class AboutWithStatements(Koan):
         pass
 
     def test_finding_lines2(self):
-        self.assertEqual(__, self.find_line2("example_file.txt"))
+        self.assertEqual(None, self.find_line2("example_file.txt"))
         self.assertNotEqual(__, self.find_line2("example_file.txt"))
 
     # ------------------------------------------------------------------
