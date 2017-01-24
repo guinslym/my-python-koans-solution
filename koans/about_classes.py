@@ -12,7 +12,7 @@ class AboutClasses(Koan):
         # NOTE: The .__name__ attribute will convert the class
         # into a string value.
         fido = self.Dog()
-        self.assertEqual(__, fido.__class__.__name__)
+        self.assertEqual('Dog', fido.__class__.__name__)
 
     def test_classes_have_docstrings(self):
         self.assertRegex(self.Dog.__doc__, __)
