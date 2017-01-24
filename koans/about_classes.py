@@ -41,7 +41,7 @@ class AboutClasses(Koan):
         fido = self.Dog2()
         fido.set_name("Fido")
 
-        self.assertEqual(__, getattr(fido, "_name"))
+        self.assertEqual('Fido', getattr(fido, "_name"))
         # getattr(), setattr() and delattr() are a way of accessing attributes
         # by method rather than through assignment operators
 
