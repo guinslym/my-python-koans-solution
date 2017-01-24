@@ -109,7 +109,7 @@ class AboutClasses(Koan):
         self.assertEqual("Fido", fido.name)
 
     def test_args_must_match_init(self):
-        with self.assertRaises(___):
+        with self.assertRaises(TypeError):
             self.Dog5()
 
         # THINK ABOUT IT:
