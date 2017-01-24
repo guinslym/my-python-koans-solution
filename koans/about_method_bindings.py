@@ -72,7 +72,8 @@ class AboutMethodBindings(Koan):
         #   owner_type = cls
 
         self.assertEqual('BoundClass', bound_obj.__class__.__name__)
-        self.assertEqual('BoundClass', binding_owner.__class__.__name__)
+        # I don't understand this
+        self.assertEqual('AboutMethodBindings', binding_owner.__class__.__name__)
         self.assertEqual(AboutMethodBindings, owner_type)
 
     # ------------------------------------------------------------------
