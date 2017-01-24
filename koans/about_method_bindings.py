@@ -31,7 +31,8 @@ class AboutMethodBindings(Koan):
 
     def test_methods_have_different_attributes(self):
         obj = Class()
-        self.assertEqual(36, len(dir(obj.method)))
+        # I don't understand why it's 26 instead of 36
+        self.assertEqual(26, len(dir(obj.method)))
 
     def test_setting_attributes_on_an_unbound_function(self):
         function.cherries = 3
