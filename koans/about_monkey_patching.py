@@ -24,8 +24,8 @@ class AboutMonkeyPatching(Koan):
         self.Dog.wag = wag
 
         fido = self.Dog()
-        self.assertEqual(__, fido.wag())
-        self.assertEqual(__, fido.bark())
+        self.assertEqual('HAPPY', fido.wag())
+        self.assertEqual("WOOF", fido.bark())
 
     # ------------------------------------------------------------------
 
