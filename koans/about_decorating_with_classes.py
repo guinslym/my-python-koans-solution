@@ -64,8 +64,8 @@ class AboutDecoratingWithClasses(Koan):
         # To clarify: the decorator above the function has no arguments, even
         # if the decorated function does
 
-        self.assertEqual(__, self.foo())
-        self.assertEqual(__, self.parrot('pieces of eight'))
+        self.assertEqual('foo, foo', self.foo())
+        self.assertEqual('PIECES OF EIGHT, PIECES OF EIGHT', self.parrot('pieces of eight'))
 
     # ------------------------------------------------------------------
 
