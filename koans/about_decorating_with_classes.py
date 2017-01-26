@@ -25,8 +25,8 @@ class AboutDecoratingWithClasses(Koan):
     def test_partial_that_wrappers_first_arg(self):
         max0 = functools.partial(self.maximum, 0)
 
-        self.assertEqual(__, max0(-4))
-        self.assertEqual(__, max0(5))
+        self.assertEqual(0, max0(-4))
+        self.assertEqual(5, max0(5))
 
     def test_partial_that_wrappers_all_args(self):
         always99 = functools.partial(self.maximum, 99, 20)
