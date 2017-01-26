@@ -19,8 +19,8 @@ class AboutDecoratingWithClasses(Koan):
         """
         max = functools.partial(self.maximum)
 
-        self.assertEqual(__, max(7,23))
-        self.assertEqual(__, max(10,-10))
+        self.assertEqual(23, max(7,23))
+        self.assertEqual(10, max(10,-10))
 
     def test_partial_that_wrappers_first_arg(self):
         max0 = functools.partial(self.maximum, 0)
@@ -125,4 +125,3 @@ class AboutDecoratingWithClasses(Koan):
     def test_we_can_chain_decorators(self):
         self.assertEqual(__, self.homer())
         self.assertEqual(__, self.homer.__doc__)
-
